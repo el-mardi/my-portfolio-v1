@@ -1,0 +1,9 @@
+@import "variables";
+@import "animation";
+@import "mixins";
+
+.projects{
+    margin: 2.5rem 0 0 0;
+    animation: 2s fade-in ease-in-out forwards ;
+
+}

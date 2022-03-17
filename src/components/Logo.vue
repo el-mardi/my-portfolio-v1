@@ -1,0 +1,129 @@
+<template>
+    <main>
+		<div class="logo">
+			<svg version="1.1" id="path_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 93 78" enable-background="new 0 0 93 78" xml:space="preserve">
+				<path fill="none" stroke="#64ffda" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M64.313,52.982L80.25,76.107 c7-0.125,14-8.375,9.183-15.807L51.442,4.493c-1.113-1.636-2.964-2.614-4.942-2.614c-1.979,0-3.829,0.979-4.942,2.614L3.567,60.3 C-1.25,67.732,5.75,75.982,12.75,76.107l15.938-23.125" stroke-dasharray="247.04 247.04" stroke-dashoffset="-247.04" opacity="0" style="opacity: 1; stroke-dashoffset: 0px;"></path>
+				<path fill="none" stroke="#64ffda" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M55.092,37.982H38.397 c-0.202,0-0.321-0.228-0.205-0.393L46.54,25.65c0.1-0.142,0.31-0.142,0.41,0l8.348,11.939 C55.413,37.755,55.295,37.982,55.092,37.982z" stroke-dasharray="47.40 47.40" stroke-dashoffset="47.40" opacity="0" style="opacity: 1; stroke-dashoffset: 0px;"></path>
+				<path fill="none" stroke="#64ffda" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M89.963,61.212c-3.037-5.271-8.133-8.229-13.168-8.229s-55.555,0-60.59,0S6.073,55.941,3.037,61.212" stroke-dasharray="93.107 93.107" stroke-dashoffset="-93.107" opacity="0" style="opacity: 1; stroke-dashoffset: 0px;"></path>
+			</svg>
+		</div> <!-- / logo -->
+  <!-- <p class="email-address"><a href="http://web3canvas.com">El Mardi Ayoub</a></p> -->
+	</main>        
+</template>
+
+<script>
+export default {
+    
+}
+</script>
+
+<style scoped>
+
+main {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.logo svg {
+  max-width: 100%;
+}
+
+main {
+  position: absolute;
+}
+
+/* @-moz-keyframes fade-in {
+  0%, 84% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0%, 84% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes fade-in {
+  0%, 84% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-ms-keyframes fade-in {
+  0%, 84% {
+    opacity: 0;
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  0%, 84% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+@keyframes draw {
+    0% {
+    opacity: 0;
+    stroke-dashoffset:-100;
+  }
+
+  100% {
+    opacity: 1;
+    stroke-dashoffset:0;
+  }
+}
+
+#path_logo path {
+animation: draw 2.4s; 
+}
+</style>

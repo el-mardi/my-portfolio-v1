@@ -1,0 +1,40 @@
+@import "variables";
+@import "animation";
+@import "mixins";
+
+
+.home{
+    animation: 2s fade-in ease-in-out forwards ;
+    // transition: all 25s cubic-bezier(0.645,0.045,0.355,1);
+
+.hello{
+    font-family: $font-maragsa;
+    display: block;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.content{
+    font-size: $fz-md;
+    color: $slate;
+    text-align: left;
+    line-height: 1.5;
+
+    h2{
+        font-family: $font-sans;
+
+        @include breakpoint-up(large) {
+        font-size: $fz-heading;
+        }
+    }
+    span{
+        color: $green;
+       
+    }
+    
+    a{
+        margin-top: 1rem;
+    }
+
+} //end content
+}

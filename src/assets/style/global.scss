@@ -1,0 +1,159 @@
+@import 'variables';
+@import 'mixins';
+
+*{
+    background: $navy;
+    font-family: $font-mono;
+    box-sizing: border-box;
+    color: $light-slate;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+
+    &::selection{
+     background: rgba(255,255,255,0.25);
+    color: $dark-navy;
+      
+    } 
+
+  }
+
+  
+body{
+  
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: $navy;
+    border-left: 1px solid $light-navy;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $lightest-navy;
+    width: 10px;
+    border-radius: 7px;
+  }  
+  &::-webkit-scrollbar-thumb:hover {
+    background: $light-navy;
+  }  
+} //end body
+
+.menuTitle{
+  position: relative;
+    text-align: left;
+    font-family: $font-mono;
+    font-size: clamp(21px,5vw,$fz-xxl);
+    color: $light-slate;
+    text-decoration: underline $blue  2px;
+    cursor: pointer;
+
+    &:hover{
+    color: $blue;
+    }
+}
+ul{
+  list-style: none;
+}
+
+.container{
+
+  padding: 3.5rem 1.5rem 0rem 1.5rem;
+  
+  @include breakpoint-up(x-small)  {
+    padding: 4rem 2.5rem 0rem 2.5rem;
+  }
+  @include breakpoint-up(small)  {
+    padding: 5rem 3rem  0rem 3rem;
+  }
+  @include breakpoint-up (large) {
+    padding: 5.5rem 5rem 0rem 5rem;
+  }
+}
+
+.noscroll{
+  overflow: hidden;
+}
+  #app {
+    // font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  
+  }
+  #loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #0a192f;
+  
+  }
+
+p{
+  font-family: $font-sans;
+  margin: 1rem 0;
+  // font-size: $fz-xs;
+  text-align: left;
+  // @include breakpoint-up(small) {
+  //     font-size: $fz-md;
+  // }
+  // @include breakpoint-up(large){
+  //     font-size: $fz-md;
+  // }
+  // @include breakpoint-up(x-large){
+  //     font-size: $fz-lg;
+  // }
+}
+h1, h2, h3 {
+  // @include breakpoint-up('large'){
+  //   font-size: $fz-lg;
+  // }
+  // @include breakpoint-up('x-large'){
+  //   font-size: $fz-xl;
+  // }
+}
+
+.btn{
+  display: inline-block;
+  color: $green;
+  background-color: transparent;
+  border: 1px solid $green;
+  border-radius: 6px;
+  font-size: $fz-sm;
+  font-family: $font-sans;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $green-tint;
+  }
+
+  &-sm{
+  padding: 0.75rem 1rem;
+  @include breakpoint-down (x-small) {
+    padding: 0.9rem 1rem;
+  }
+ }
+
+ &-lg{
+  padding: 1.25rem 1.75rem;
+  @include breakpoint-down (x-small) {
+    padding: 1rem 1.2rem;
+  }
+
+}
+@include breakpoint-down (x-small) {
+  font-size: $fz-xs;
+  letter-spacing: 0.5px;
+
+}
+}
+
+a{
+  text-decoration: none;
+}

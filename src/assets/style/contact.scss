@@ -1,0 +1,20 @@
+@import "variables";
+@import "animation";
+@import "mixins";
+
+.contact{
+    animation: 2s fade-in ease-in-out forwards ;
+    
+    .box{
+    margin-top: 2.5rem;
+    p{
+        @include breakpoint-up(small) {
+                padding: 1rem 20% 0.5rem;
+        }
+        @include breakpoint-down(x-small) {
+            padding: 1rem 17% 0.5rem;
+            text-align: center;
+    }
+    }
+    }
+}

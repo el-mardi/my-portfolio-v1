@@ -1,0 +1,51 @@
+@import 'variables';
+@import 'mixins';
+@import 'animation';
+
+*{
+    background: none;
+    z-index: 1;
+}
+
+
+.up{
+    position: fixed;
+    bottom: 1.3rem;
+    right: 0.5rem;
+    animation: fade-in 1s ease-in-out forwards;
+
+    @include breakpoint-up (x-small){
+        bottom: 1.5rem;
+        right: 1rem;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: $blue;
+        font-size: $fz-sm;
+        padding: 4px;
+        border: 1px solid $blue;
+        border-radius: 50%;
+        @include breakpoint-up (x-small){
+            padding: 6px;
+            font-size: $fz-lg;
+        } 
+        @include breakpoint-up (small){
+            font-size: $fz-xl;
+        }
+        @include breakpoint-up (large){
+            background-color: $dark-slate;
+            border: 1px dashed $blue;
+            padding: 9px;
+            font-size: $fz-xl;
+        }
+        @include breakpoint-up (x-large){
+            padding: 10px;
+            font-size: $fz-xxl;
+        }
+        &:hover{
+            background-color: inherit;
+            border: 1px solid $blue;
+        }
+    }
+}
