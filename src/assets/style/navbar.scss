@@ -4,21 +4,15 @@
 
 *{
     font-family: $font-mono;
-    font-size: $fz-lg;
-    font-weight: 700;
+    font-size: $fz-md;
 }
 nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    // height: ;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
     border-bottom: 2px solid $lightest-navy;
-    z-index: 2;
 
 .logo{
     width: 2rem;
