@@ -22,12 +22,12 @@
         text-decoration: none;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: $blue;
-        font-size: $fz-sm;
-        padding: 4px;
+        font-size: $fz-md;
+        padding: 6px;
         border: 1px solid $blue;
         border-radius: 50%;
         @include breakpoint-up (x-small){
-            padding: 6px;
+            padding: 8px;
             font-size: $fz-lg;
         } 
         @include breakpoint-up (small){

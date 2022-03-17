@@ -108,6 +108,9 @@ img{
                     height: 1.2rem;
                     
                 }
+                .linkContent{
+                    color: inherit;
+                }
 
                 }
             }
@@ -197,10 +200,10 @@ img{
                 margin: 0 1rem 1rem 1rem;
             }
 
-            @include breakpoint-up(large){
-                flex-direction: row;
-                margin: 0 1rem 1rem 1rem;
-            }
+            // @include breakpoint-up(large){
+            //     flex-direction: row;
+            //     margin: 0 1rem 1rem 1rem;
+            // }
 
             .links{
                 display: flex;
@@ -210,11 +213,15 @@ img{
                 margin-right: 0.5rem;
                 a{
                     display: inline-block;
-                    width: 1rem;
-                    height: 1rem;
+                    width: 1.35rem;
+                    height: 1.35rem;
 
                     svg{
                         stroke: $blue;
+                    }
+
+                    .linkContent{
+                        display: none;
                     }
                 }
             }
