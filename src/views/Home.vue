@@ -12,7 +12,7 @@
           I am a full-stack devoloper, I build things for the web. <br>
           I like to build accessible, inclusive products and automate processes and get things working behind the scenes.
         </p>
-        <a href="#" target="_blank" class="btn btn-lg">Check out my Blog</a>
+        <a href="https://elmardi.hashnode.dev/" target="_blank" class="btn btn-lg">Check out my Blog</a>
          <Links />
       </div>
     </div>

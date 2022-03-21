@@ -6,11 +6,16 @@
     background: none;
 }
 
+#Ps{
+    display: block;
+    color: $pink;
+}
 @include breakpoint-up (small) {
 
 .project{
-    padding-bottom: 2rem;
-
+    border: 1px solid;
+    margin-bottom: 2rem;
+    border-radius: $border-radius;
 .img{
     position: relative;
     width: 100%;
@@ -41,8 +46,8 @@ img{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, .2);
-    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, .27);
+    backdrop-filter: blur(7px);
     width: inherit;
     height: inherit;
     border-radius: $border-radius;
@@ -58,14 +63,17 @@ img{
 
         h1{
             font-family: $font-sans;
-            color: $lightest-slate;
-            font-weight: 700;
+            color: $dark-navy;
+            font-weight: 700;            
         }
 
         .description{
             font-size: $fz-md;
             font-weight: 600;
-            
+            margin-top: 1rem;
+            // border: 1px solid $navy;
+            // border-radius: $border-radius;
+            padding: 1.2rem;
             p{
                 text-align: center;
                 color: $navy;
@@ -81,21 +89,24 @@ img{
                 justify-content: center;
                 align-items: center;
                 gap: 1rem;
+                
                 a{
                     display:flex;
                     justify-content: center;
                     align-items: center;
                     gap: 5px;
-                    color: $navy;
-                    border: 1px solid $navy;
+                    color: $dark-slate;
+                    border: 1px solid $dark-slate;
                     border-radius: 5px;
                     padding: 0.5rem;
+                    background: $green-tint;
                     &:hover{
                         stroke: $green;
                         color: $green;
                         transform: translateY(-5px);
                         transition: transform 600ms ease-in-out;
                         border: 1px solid $green;
+                        background: none;
                         svg{
                         stroke: $green;
                             
@@ -103,7 +114,7 @@ img{
                     }
 
                 svg{
-                    stroke: $light-navy;
+                    stroke: $dark-slate;
                     width: 1.2rem;
                     height: 1.2rem;
                     

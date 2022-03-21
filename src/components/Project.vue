@@ -1,15 +1,18 @@
 <template>
     <div class="project">
         <div class="img">
-            <img src="../assets/img/blog.png" alt="">
+            <img :src="src">
             <div class="content">
             <a class="img-href" href="#">
                 <div class="title">
                     <h1>{{title}}</h1>
                 </div>
                 <div class="description">
-                    <p>{{description}}</p>
-
+                    <p>
+                        {{description}}
+                        <span id="Ps">{{ps}}</span>
+                    </p>
+                    
                     <div class="project-footer">
                        <p>Built with: {{techs}}</p>
                         <div class="links">
@@ -65,7 +68,7 @@
 <script>
 export default {
    
-   props: ['src', 'title', 'description', 'techs', 'github', 'live'],
+   props: ['src', 'title', 'description', 'techs', 'github', 'live', 'ps'],
 
    created() {
         // this.$refs.MyLink.value= "";

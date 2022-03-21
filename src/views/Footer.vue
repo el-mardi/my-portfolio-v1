@@ -2,7 +2,7 @@
     <div class="container">
          <div class="footer">
          <Links />
-            <a href="http://" target="_blank" rel="noopener noreferrer"> Built by El Mardi Ayoub</a>
+            <a href="https://github.com/el-mardi" target="_blank" rel="noopener noreferrer"> Built with LOVE by El Mardi Ayoub 2022</a>
          </div>
     </div>        
 </template>

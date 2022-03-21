@@ -3,15 +3,15 @@
   <div class="container">
      <h3  class="menuTitle"> 02. Some Things I have Built/></h3>
     <div class="projects">
-      <Project  src="../assets/img/easybank.png" title = "EasyBank landing page" description= "Lorem ipsum dolor site consectetur adipisicing eli veniam Lorem ipsum dolor site consectetur adipisicing eli veniam " techs= "Html, Css, JavaScript" github="https://github.com/el-mardi/-Easybank--Responsive-Landing-Page" live="https://my-easy-bank.netlify.app/"/>
+      <Project  src="/img/easybank.png" title = "EasyBank landing page" description= "EasyBank is a simple landing page that I built from Elmontor.io" techs= "Html, Css, JavaScript" github="https://github.com/el-mardi/-Easybank--Responsive-Landing-Page" live="https://my-easy-bank.netlify.app/"/>
 
-       <Project  src="../assets/img/blog.png" title = "Blog landing page" description= "Lorem 2 ipsum dolor site consectetur adipisicing eli veniam" techs= "Html, Css and JavaScript" github="https://github.com/el-mardi/Blogr--Responsive-Landing-Page" live="https://el-mardi-blog.netlify.app/"/>
+       <Project  src="/img/blog.png" title = "Blog landing page" description= "Blog is a simple landing page that I built from Elmontor.io " techs= "Html, Css and JavaScript" github="https://github.com/el-mardi/Blogr--Responsive-Landing-Page" live="https://el-mardi-blog.netlify.app/"/>
 
-       <Project  src="../assets/img/portfolio.png" title = "my old Portfolio" description= "Lorem 2 ipsum dolor site consectetur adipisicing eli veniam" techs= "Html, Css, JavaScript and VueJs framework" github="https://github.com/el-mardi/Portfolio-with-vue-js-3" live="https://el-mardi.github.io/Portfolio-with-vue-js-3/"/>
+       <Project  src="/img/portfolio.png" title = "Portfolio" description= "A portfolio that I built with vueJs, containe personel blog and form to contact with EmailJS" techs= "Html, Css, JavaScript and VueJs framework" github="https://github.com/el-mardi/Portfolio-with-vue-js-3" live="https://el-mardi.github.io/Portfolio-with-vue-js-3/"/>
 
-       <Project  src="../assets/img/portfolio.png" title = "E-commerce" description= "Lorem 2 ipsum dolor site consectetur adipisicing eli veniam Ps: Not finished yet" techs= "Html, Css, JavaScript, Jquery, Ajax and Laravel framework" github="https://github.com/el-mardi/e-commerce" live="##"/>
+       <Project  src="/img/ecommerce.png" title = "E-commerce" description= "E-commerce web application built with laravel 8, containe users interfaces and admins sides to control the app"  ps= "Not finished yet" techs= "Html, Css, JavaScript, Jquery, Ajax and Laravel framework" github="https://github.com/el-mardi/e-commerce" live="#"/>
 
-      <Project  src="../assets/img/portfolio.png" title = "This Portfolio" description= "Lorem 2 ipsum dolor site consectetur adipisicing eli veniam" techs= "Html, Css, JavaScript and VueJs framework" github="" live=""/>
+        <Project  src="/img/personelPortfolio.png" title = "My personel portfolio" description= "This portfolio" techs= "Html, Scss and VueJs framework" github="https://github.com/el-mardi/e-commerce" live="#"/>
 
     </div>
   </div>

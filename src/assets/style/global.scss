@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'animation';
 @import 'mixins';
 
 *{
@@ -47,6 +48,7 @@ body{
     color: $light-slate;
     text-decoration: underline $blue  2px;
     cursor: pointer;
+    animation: fade-in 1s ease-in-out forwards;
 
     &:hover{
     color: $blue;

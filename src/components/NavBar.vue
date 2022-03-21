@@ -9,7 +9,7 @@
                 <li><router-link to="/contact">Contact</router-link></li>
                
             </ol>
-            <a href="#" class="btn btn-sm">Resume</a>
+            <a href="/pdf/resume.pdf" target="_blanck" class="btn btn-sm">Resume</a>
         </div>
         <div class="humbarger close" ref="humbarger" @click="humbargerMenu()">
             <span></span>
@@ -23,7 +23,7 @@
                 <li><router-link to="/news">Blog</router-link></li>
                 <li><router-link to="/contact">Contact</router-link></li>
         </ol>
-        <a href="#" class="btn btn-sm">Resume</a>
+        <a href="/pdf/resume.pdf" target="_blanck" class="btn btn-sm">Resume</a>
         </div>
     </nav>
         <div ref="overly" class="overly"></div>
