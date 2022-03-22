@@ -49,7 +49,7 @@ body{
     text-decoration: underline $blue  2px;
     cursor: pointer;
     animation: fade-in 1s ease-in-out forwards;
-
+    background:none;
     &:hover{
     color: $blue;
     }
@@ -149,13 +149,20 @@ h1, h2, h3 {
   }
 
 }
+&-lm{
+  color: $light-slate;
+  border: 1px solid $light-slate;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+
+}
+
 @include breakpoint-down (x-small) {
   font-size: $fz-xs;
   letter-spacing: 0.5px;
 
 }
 }
-
 a{
   text-decoration: none;
 }

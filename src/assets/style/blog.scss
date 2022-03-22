@@ -1,0 +1,17 @@
+@import "variables";
+@import "animation";
+@import "mixins";
+
+.blog{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    counter-reset: section;
+
+    @include breakpoint-down (small) {
+        flex-wrap: wrap;
+    }
+}

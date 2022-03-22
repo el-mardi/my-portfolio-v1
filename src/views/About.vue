@@ -1,7 +1,7 @@
 <template>
 
   <div class="container">
-     <h3  class="menuTitle"> 01. About/></h3>
+     <h3 id="about"   class="menuTitle"> 01. About/></h3>
   <div class="about ">
     <div class="right">
         <img src="../assets/img/elmardiAyoub.jpg">

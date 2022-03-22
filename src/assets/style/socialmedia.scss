@@ -9,7 +9,9 @@
 
 
 .up{
-    position: fixed;
+    position: fixed;   
+    width: max-content;
+    height: max-content;
     bottom: 1.3rem;
     right: 0.5rem;
     animation: fade-in 1s ease-in-out forwards;
@@ -18,34 +20,28 @@
         bottom: 1.5rem;
         right: 1rem;
     }
-    a{
-        text-decoration: none;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: $blue;
-        font-size: $fz-md;
-        padding: 6px;
-        border: 1px solid $blue;
-        border-radius: 50%;
-        @include breakpoint-up (x-small){
-            padding: 8px;
-            font-size: $fz-lg;
-        } 
-        @include breakpoint-up (small){
-            font-size: $fz-xl;
-        }
-        @include breakpoint-up (large){
-            background-color: $dark-slate;
-            border: 1px dashed $blue;
-            padding: 9px;
-            font-size: $fz-xl;
-        }
-        @include breakpoint-up (x-large){
-            padding: 10px;
-            font-size: $fz-xxl;
-        }
-        &:hover{
-            background-color: inherit;
-            border: 1px solid $blue;
-        }
+    &:hover{
+        transform: scale(1.09);
+        transition: transform 450ms ease-in-out;
     }
+    .top{
+        svg{
+            width: 2.5rem;
+            padding: 8px;
+            border: 1px dashed $blue;
+            border-radius: 50%;
+            background-color: $light-navy;
+
+            &:hover{
+            border: 1px solid $blue;
+            background-color: inherit;
+            }
+
+            @include breakpoint-down (small){
+                width: 2rem;
+                border: 1px solid $blue;
+                background-color: inherit;
+            }
+        }
+    }    
 }

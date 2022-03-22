@@ -17,7 +17,7 @@
     align-items: center;
     bottom: 11rem;
     left: 0.7rem;
-    gap: 0.45rem;
+    gap: 0.6rem;
     cursor: pointer;
 
     @include breakpoint-up (large){
@@ -37,13 +37,13 @@
 }
 
 
-.home .content .links, .footer .links{
+.home .content .links, .footer .links, .mobileNavBar .links{
     display: flex;
     position: relative;
     visibility: hidden;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1.7rem;
     cursor: pointer;
     
 }
@@ -68,7 +68,7 @@ li{
 
 .home .content .links{
   @include breakpoint-down(large){
-        margin:1.3rem 0 0 ;
+        margin:1.4rem 0 0 ;
         animation: 1s fade-in ease-in-out forwards ;
 
     }
@@ -77,4 +77,9 @@ li{
 .footer .links {
         animation: 1s fade-in ease-in-out forwards ;
         margin:0 0 1.5rem;
+}
+
+.mobileNavBar .links{
+    animation: 1s fade-in ease-in-out forwards ;
+        display: inherit;
 }

@@ -1,11 +1,11 @@
 <template>
 
   <div class="container">
-     <h3  class="menuTitle"> 02. Some Things I have Built/></h3>
+     <h3  id="works" class="menuTitle"> 02. Some Things I have Built/></h3>
     <div class="projects">
-      <Project  src="/img/easybank.png" title = "EasyBank landing page" description= "EasyBank is a simple landing page that I built from Elmontor.io" techs= "Html, Css, JavaScript" github="https://github.com/el-mardi/-Easybank--Responsive-Landing-Page" live="https://my-easy-bank.netlify.app/"/>
+      <Project  src="/img/easybank.png" title = "EasyBank landing page" description= "EasyBank is a simple landing page that I built  just for fun" techs= "Html, Css, JavaScript" github="https://github.com/el-mardi/-Easybank--Responsive-Landing-Page" live="https://my-easy-bank.netlify.app/"/>
 
-       <Project  src="/img/blog.png" title = "Blog landing page" description= "Blog is a simple landing page that I built from Elmontor.io " techs= "Html, Css and JavaScript" github="https://github.com/el-mardi/Blogr--Responsive-Landing-Page" live="https://el-mardi-blog.netlify.app/"/>
+       <Project  src="/img/blog.png" title = "Blog landing page" description= "I have built this simple landing page just for fun " techs= "Html, Css and JavaScript" github="https://github.com/el-mardi/Blogr--Responsive-Landing-Page" live="https://el-mardi-blog.netlify.app/"/>
 
        <Project  src="/img/portfolio.png" title = "Portfolio" description= "A portfolio that I built with vueJs, containe personel blog and form to contact with EmailJS" techs= "Html, Css, JavaScript and VueJs framework" github="https://github.com/el-mardi/Portfolio-with-vue-js-3" live="https://el-mardi.github.io/Portfolio-with-vue-js-3/"/>
 

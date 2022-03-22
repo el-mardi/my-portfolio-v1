@@ -1,0 +1,56 @@
+@import "variables";
+@import "animation";
+@import "mixins";
+
+*{
+    // max-width: max-content;
+}
+.article{
+    position: relative;
+    // text-align: left;
+    border: 5px solid $green-tint;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+    transform: translateY(3px);
+    transition: transform 250ms ease-in-out;
+
+    &:hover{
+        transform: translateY(-3px);
+        transition: transform 250ms ease-in-out ;
+
+        .content:hover::before{
+            background: $slate ;
+        }
+
+        h3{
+            color: $blue;
+        }
+    }
+    .content{
+        position: relative;
+
+        &::before{
+            position:absolute;
+            counter-increment: section;
+            content: " " counter(section);
+            width: 2rem;
+            height: 2.4rem;
+            top: -1.4rem;
+            left: 99%;
+            text-align: center;
+            background: $dark-slate ;
+            border-radius: 2px;
+        }
+
+       h3{
+            text-align: center;
+            @include breakpoint-down (small){
+               border-bottom: none;
+            }
+       }
+       p{
+        color: $dark-slate;
+
+       }
+   }
+}

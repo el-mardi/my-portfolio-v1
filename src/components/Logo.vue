@@ -33,83 +33,17 @@ main {
   width: 150px;
   height: 150px;
   display: inline-block;
+  background: inherit;
 }
 
 .logo svg {
   max-width: 100%;
+  background: inherit;
 }
 
 main {
   position: absolute;
 }
-
-/* @-moz-keyframes fade-in {
-  0%, 84% {
-    opacity: 0;
-    -moz-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@-webkit-keyframes fade-in {
-  0%, 84% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@-o-keyframes fade-in {
-  0%, 84% {
-    opacity: 0;
-    -o-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@-ms-keyframes fade-in {
-  0%, 84% {
-    opacity: 0;
-    -ms-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@keyframes fade-in {
-  0%, 84% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
 
 @keyframes draw {
     0% {

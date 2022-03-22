@@ -1,14 +1,16 @@
 <template>
     <div class="container contact">
-         <h3  class="menuTitle"> 04. Contact Me/></h3>
+         <h3 id="contact" class="menuTitle"> 04. Contact Me/></h3>
          <div class="box">
-             <h4>
+             <h2>
                 Get In Touch
-             </h4>
+             </h2>
              <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ratione dolorum fugiat voluptas quidem optio beatae asperiores, deserunt blanditiis accusantium?
+                I don't learn how to code to build a boring things, I learn to code to build a killer websites. I am seeking for an opportinity were I can put my abilities, my creative, and 
+                I would love to collaborate and contribute to open-source project.
+                <span>Feel free to contact me !</span>
              </p>
-             <a class=" btn btn-lg" href="mailto:el.ayoub.97@gmail.com" rel="noopener noreferrer" target="_blank">Contact me right now !</a>
+             <a class=" btn btn-lg" href="mailto:el.ayoub.97@gmail.com" rel="noopener noreferrer" target="_blank">Contact me !</a>
          </div>
     </div>        
 </template>

@@ -95,26 +95,26 @@ img{
                     justify-content: center;
                     align-items: center;
                     gap: 5px;
-                    color: $dark-slate;
-                    border: 1px solid $dark-slate;
+                    color: $slate;
+                    border: 1px solid $slate;
                     border-radius: 5px;
                     padding: 0.5rem;
-                    background: $green-tint;
+                    background: $navy-shadow;
                     &:hover{
-                        stroke: $green;
-                        color: $green;
+                        // stroke: $green;
+                        color: $blue;
                         transform: translateY(-5px);
                         transition: transform 600ms ease-in-out;
-                        border: 1px solid $green;
+                        border: 1px solid $blue;
                         background: none;
                         svg{
-                        stroke: $green;
+                        stroke: $blue;
                             
                         }
                     }
 
                 svg{
-                    stroke: $dark-slate;
+                    stroke: $slate;
                     width: 1.2rem;
                     height: 1.2rem;
                     

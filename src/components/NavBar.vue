@@ -3,13 +3,13 @@
         <a href="/"> <img class="logo" src="../assets/img/logo.png" alt=""> </a>
         <div class="nemu">
             <ol >
-                <li><router-link to="#aboutme">About</router-link></li>
-                <li><router-link to="/woks">works</router-link></li>
-                <li><router-link to="/Blog">Blog</router-link></li>
-                <li><router-link to="/contact">Contact</router-link></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
                
             </ol>
-            <a href="/pdf/resume.pdf" target="_blanck" class="btn btn-sm">Resume</a>
+            <a href="/pdf/resume.pdf" target="_blank" class="btn btn-sm">Resume</a>
         </div>
         <div class="humbarger close" ref="humbarger" @click="humbargerMenu()">
             <span></span>
@@ -18,26 +18,30 @@
         </div>
         <div class="mobileNavBar" ref="mobileNavBar">
         <ol  type="1">
-             <li><router-link to="#aboutme">About</router-link></li>
-                <li><router-link to="/woks">works</router-link></li>
-                <li><router-link to="/news">Blog</router-link></li>
-                <li><router-link to="/contact">Contact</router-link></li>
+             <li><a href="#about" @click="humbargerMenu()">About</a></li>
+                <li><a href="#works" @click="humbargerMenu()">works</a></li>
+                <li><a href="#blog" @click="humbargerMenu()">Blog</a></li>
+                <li><a href="#contact" @click="humbargerMenu()">Contact</a></li>
+                <a href="/pdf/resume.pdf" target="_blank" class="btn btn-sm">Resume</a>
         </ol>
-        <a href="/pdf/resume.pdf" target="_blanck" class="btn btn-sm">Resume</a>
+            <Links />
         </div>
     </nav>
         <div ref="overly" class="overly"></div>
 </template>
 
 <script>
-
+import Links from './Links.vue'
 export default {
+    components:{
+        Links,
+    },
     methods: {
         humbargerMenu (){
             const humbarger = this.$refs.humbarger;
             const mobileNavBar = this.$refs.mobileNavBar;
             const overly = this.$refs.overly;
-
+            
             humbarger.classList.toggle('open');
             humbarger.classList.toggle('close');
 
@@ -55,7 +59,8 @@ export default {
                 document.body.classList.add('noscroll')
             
             }
-        }
+        },
+
     }
 }
 </script>

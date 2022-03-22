@@ -28,7 +28,7 @@ a{
     background: none;
 
     &:hover{
-        color: $green;
+        color: $blue;
         transform: scale(1.01);
     }
     
@@ -40,14 +40,13 @@ a{
     visibility: hidden;
     position: absolute;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 1rem;
     background-color: #112240;
     width: 60%;
     min-height:  min-content;
     height: 100vh;
-    top: 3.5rem;
+    top: 3.8rem;
     right: 0;
     bottom: 0;
     padding: 1rem 0;
@@ -63,7 +62,7 @@ ol{
     flex-direction: column;
     justify-content: center;
     background-color: inherit;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 li{
     width: max-content;
@@ -110,7 +109,7 @@ li{
 }
 li::marker {
     content: "0"counter(list-item)".";
-    color: #64ffda;
+    color: $blue;
 }
 
 .nemu{
@@ -156,7 +155,7 @@ span{
     width: 1.5rem;
     height: 4px;
     margin-bottom: 3px;
-    background-color: #64ffda;
+    background-color: $blue;
 }   
 } //End Humbarger
 
