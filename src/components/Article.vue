@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped src="../assets/style/article.scss">
+<style lang="scss" src="../assets/style/articles.scss" scoped>
     
 </style>
