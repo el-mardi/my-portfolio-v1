@@ -40,16 +40,17 @@ a{
     visibility: hidden;
     position: absolute;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    gap: 5rem;
     background-color: #112240;
-    width: 60%;
+    width: 67%;
     min-height:  min-content;
-    height: 100vh;
+    height: 95vh;
     top: 3.8rem;
     right: 0;
     bottom: 0;
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     z-index: 3;
 
     @include breakpoint-up(small){
