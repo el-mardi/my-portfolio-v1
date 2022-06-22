@@ -4,7 +4,7 @@
      <h3 id="about"   class="menuTitle"> 01. About/></h3>
   <div class="about ">
     <div class="right">
-        <img src="../assets/img/elmardiAyoub.jpg">
+        <img src="../assets/img/elmardiAyoub.jpg" alt="El Mardi Ayoub">
     </div>
     <div class="left">
       <div class="content">
@@ -24,11 +24,13 @@
             <li>Css</li>
             <li>JavaScript</li>
             <li>Php</li>
+            <li>Ajax</li>
           </ul>
           <ul>
             <li>Laravel</li>
             <li>VueJs</li>
             <li>Bootstrap</li>
+            <li>TailwinCss</li>
             <li>MySql</li>
           </ul>
         </div>
