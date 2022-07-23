@@ -4,7 +4,7 @@
      <h3 id="about"   class="menuTitle"> 01. About/></h3>
   <div class="about ">
     <div class="right">
-        <img src="../assets/img/elmardiAyoub.jpg" alt="El Mardi Ayoub">
+        <img src="../assets/img/elmardiAyoub.png" alt="El Mardi Ayoub">
     </div>
     <div class="left">
       <div class="content">

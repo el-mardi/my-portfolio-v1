@@ -23,8 +23,8 @@
                 <li><a href="#blog" @click="humbargerMenu()">Blog</a></li>
                 <li><a href="#contact" @click="humbargerMenu()">Contact</a></li>
                 <a href="/pdf/resume.pdf" target="_blank" class="btn btn-sm">Resume</a>
+                <Links/>
         </ol>
-            <Links />
         </div>
     </nav>
         <div ref="overly" class="overly"></div>
@@ -41,7 +41,8 @@ export default {
             const humbarger = this.$refs.humbarger;
             const mobileNavBar = this.$refs.mobileNavBar;
             const overly = this.$refs.overly;
-            
+
+
             humbarger.classList.toggle('open');
             humbarger.classList.toggle('close');
 

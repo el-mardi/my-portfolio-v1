@@ -52,7 +52,8 @@ a{
     bottom: 0;
     padding: 2.5rem 0;
     z-index: 3;
-
+    margin-left: 1rem;
+    
     @include breakpoint-up(small){
         display: none;
     }
@@ -71,6 +72,7 @@ li{
     background-color: inherit;
     cursor: pointer;
 }
+
 } //end Mobile menu
 
 .open span {

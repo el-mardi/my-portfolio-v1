@@ -80,6 +80,7 @@ li{
 }
 
 .mobileNavBar .links{
-    animation: 1s fade-in ease-in-out forwards ;
-        display: inherit;
+    visibility: inherit;
+    margin-top: 0.5rem;
+    // animation: 1s fade-in ease-in-out forwards ;
 }
