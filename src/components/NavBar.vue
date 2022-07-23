@@ -7,12 +7,12 @@
                 <li><a href="#works">works</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
+               
             </ol>
             <a href="/pdf/resume.pdf" target="_blank" class="btn btn-sm">Resume</a>
         </div>
         <div class="humbarger close" ref="humbarger" @click="humbargerMenu()">
             <span></span>
-
             <span ref="span2"></span>
             <span></span>
         </div>
@@ -65,5 +65,7 @@ export default {
     }
 }
 </script>
+
 <style lang="scss" scoped src="../assets/style/navbar.scss">
+
 </style>
